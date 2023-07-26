@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List App</title>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+  </head>
+  <body class="relative bg-[#f1f2f5] text-gray-600">
+    <div
+      class="max-w-2xl mx-auto my-16 bg-white shadow p-8 rounded-2xl space-y-6"
+    >
+    <div class="flex items-center justify-between">
+        <h1 class="text-xl">What's up Jacob Moracha</h1>
+        <button class="bg-indigo-600 text-white rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6h-2Z"/></svg>
+        </button>
+    </div>
+      <div class="space-y-4">
+        <h2 class="uppercase text-xs">categories</h2>
+        <div class="flex items-center space-x-3">
+          <div class="border p-4 rounded-xl space-y-3">
+            <p>40 tasks</p>
+            <p class="text-2xl">Business</p>
+            <div class="relative pt-1">
+              <div
+                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200"
+              >
+                <div
+                  style="width: 30%"
+                  class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="border p-4 rounded-xl space-y-3">
+            <p>40 tasks</p>
+            <p class="text-2xl">Business</p>
+            <div class="relative pt-1">
+              <div
+                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200"
+              >
+                <div
+                  style="width: 30%"
+                  class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="border p-4 rounded-xl space-y-3">
+            <p>40 tasks</p>
+            <p class="text-2xl">Business</p>
+            <div class="relative pt-1">
+              <div
+                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200"
+              >
+                <div
+                  style="width: 30%"
+                  class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="space-y-4">
+            <p>Today's Task</p>
+            <div class="space-y-3">
+                <div class="flex items-center space-x-2 cursor-pointer">
+                    <div class="w-4 h-4 border-2 border-red-400 rounded-full"></div>
+                    <p>Pay for rent</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute max-w-sm mx-auto top-10 right-0 left-0 bg-while shadow-2xl drop-shadow-lg z-40 rounded-lg p-6">
+        <button class="block border border-gray-600 rounded-full float-right">
+            <svg class="w-6 h-auto" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z"/></svg>
+        </button>
+        <div class="mt-12">
+            <input type="text" class="border-0 outline-0" placeholder="enter your todo">
+            
+        </div>
+    </div>
+  </body>
+</html>
